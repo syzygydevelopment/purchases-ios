@@ -1,0 +1,33 @@
+{
+  "configurations" : [
+    {
+      "id" : "71CFC3CE-392E-4A6C-8AA6-DFA13024319E",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:Purchases.xcodeproj",
+        "identifier" : "2DC5621D24EC63430031F69B",
+        "name" : "PurchasesCoreSwiftTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:Purchases.xcodeproj",
+        "identifier" : "35262A1D1F7D77E600C04F2C",
+        "name" : "PurchasesTests"
+      }
+    }
+  ],
+  "version" : 1
+}
