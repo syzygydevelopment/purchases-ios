@@ -34,7 +34,7 @@ import Foundation
             return receipt.inAppPurchases.count > 0
         }
 
-        Logger.warn(String(format: Strings.receipt.parsing_receipt_failed, #file, #function))
+        Logger.warn(String(format: Strings.receipt.parsing_receipt_failed, #fileID, #function))
         return true
     }
 
